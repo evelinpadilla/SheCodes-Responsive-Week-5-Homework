@@ -25,6 +25,29 @@ h2 {
 img {
   border-radius: 12px;
 }
+nav {
+  padding: 20px;
+}
+nav a {
+  color: var(--default-color-family);
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+  list-style: none;
+  margin-left: 15px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
 p {
   color: var(--default-color-family);
   font-size: 16px;
@@ -96,6 +119,10 @@ p {
   font-weight: bold;
   margin: 0;
 }
+.logo {
+  max-height: 40px;
+}
+
 .project-description {
   padding: 120px 60px;
 }
@@ -106,6 +133,9 @@ p {
   }
   h2 {
     font-size: 34px;
+  }
+  nav a {
+    font-size: 12px;
   }
   p {
     font-size: 22px;
