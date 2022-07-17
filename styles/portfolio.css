@@ -34,9 +34,8 @@ p {
 .content {
   margin: 30px;
 }
-.content-section {
-  background-color: var(--primary-color);
-  padding: 160px 20px;
+.content a {
+  color: var(--default-color-family);
 }
 .content h1 {
   font-size: 64px;
@@ -58,6 +57,10 @@ p {
   color: var(--default-color-family);
   font-size: 14px;
   opacity: 0.5;
+}
+.content-section {
+  background-color: var(--primary-color);
+  padding: 160px 20px;
 }
 .btn-branding {
   background: var(--branding-color);
