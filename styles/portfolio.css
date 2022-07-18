@@ -21,7 +21,8 @@ h2 {
   color: var(--default-color-family);
   font-size: 60px;
 }
-h4 {
+h3 {
+  color: var(--branding-color);
   font-size: 48px;
 }
 img {
@@ -106,7 +107,8 @@ footer .email-link:hover {
 }
 .content-section {
   background-color: var(--primary-color);
-  padding: 160px 20px;
+  border-radius: 10px;
+  padding: 60px 20px;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -129,7 +131,7 @@ footer .email-link:hover {
 }
 .hero {
   background-color: var(--primary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
   text-align: center;
 }
 .hero h2 {
@@ -146,7 +148,7 @@ footer .email-link:hover {
   margin: 0;
 }
 .logo {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 .project-description {
@@ -172,9 +174,7 @@ footer .email-link:hover {
     text-align: center;
     padding: 0;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .project-description {
     padding: 0;
     text-align: center;

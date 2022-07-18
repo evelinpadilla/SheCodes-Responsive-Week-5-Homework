@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Evelin Padilla. Evelin is a beginner front-end developer based in the United States. This site is a portfolio of her projects."
+    />
     <title>About - Evelin Padilla</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -29,6 +33,30 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            alt="Evelin Padilla logo"
+            class="logo d-none d-md-block" />
+          <img
+            src="/images/logo-small.png"
+            alt="Evelin Padilla logo"
+            class="logo d-block d-md-none"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Evelin">About</a>
+          </li>
+          <li>
+            <a href="/projects.html" title="Evelin's Projects">Projects</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Evelin">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-section container">
       <div class="row">
         <div class="col-lg-6">
@@ -53,15 +81,47 @@
         <div class="col-lg-6">
           <img
             src="/images/EvelinPadilla.jpg"
-            alt="Image of Evelin Padilla"
+            alt="Photo of Evelin Padilla"
             class="img-fluid"
           />
         </div>
       </div>
     </div>
-    <footer>
-      <a href="/">Home</a><a href="/projects.html">Projects</a>
-      <a href="/about.html">About</a><a href="/contact.html">Contact</a>
+    <br />
+    <footer class="container mt-5">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p>Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Evelin"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:evelin.padilla92@gmail.com"
+          class="email-link"
+          title="Email Evelin"
+          >evelin.padilla92@gmail.com</a
+        >
+      </div>
+      <p class="text-center mb-5">
+        This project was coded by Evelin Padilla, and it is
+        <a
+          href="https://github.com/evelinpadilla/SheCodes-Responsive-Week-5-Homework"
+          title="Link to code"
+          target="_blank"
+          >open-sourced</a
+        >.
+      </p>
     </footer>
   </body>
 </html>
