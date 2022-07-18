@@ -7,28 +7,9 @@
 }
 body {
   background-color: var(--branding-color);
+  font-family: var(--default-font-family);
 }
-footer .contact-box {
-  background: var(--primary-color);
-  border-radius: 10px;
-  padding: 30px 120px;
-}
-footer .contact-box h4 {
-  color: var(--default-color-family);
-}
-footer .contact-box p {
-  color: var(--default-color-family);
-  margin: 0;
-  opacity: 0.5;
-}
-footer .email-link {
-  color: black;
-  font-size: 24px;
-  text-decoration: none;
-}
-footer .email-link:hover {
-  color: var(--default-color-family);
-}
+
 h1 {
   color: var(--default-color-family);
   font-family: var(--heading-font-family);
@@ -75,6 +56,27 @@ p {
   font-weight: normal;
   line-height: 30px;
 }
+footer .contact-box {
+  background: var(--primary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+footer .contact-box h4 {
+  color: var(--default-color-family);
+}
+footer .contact-box p {
+  color: var(--default-color-family);
+  margin: 0;
+  opacity: 0.5;
+}
+footer .email-link {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+footer .email-link:hover {
+  color: var(--default-color-family);
+}
 .content {
   margin: 30px;
 }
@@ -109,10 +111,10 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: var(--default-color-family);
+  color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 12px 20px;
+  padding: 15px 30px;
 }
 .btn-branding-outline {
   border: 1px solid var(--primary-color);
@@ -120,7 +122,10 @@ p {
   color: var(--primary-color);
   font-size: 18px;
   line-height: 27px;
-  padding: 12px 20px;
+  padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  color: var(--default-color-family);
 }
 .hero {
   background-color: var(--primary-color);
