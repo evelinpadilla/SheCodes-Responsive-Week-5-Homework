@@ -78,6 +78,25 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--default-color-family);
 }
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  color: var(--default-color-family);
+}
 .content {
   margin: 30px;
 }
@@ -110,25 +129,7 @@ footer .email-link:hover {
   border-radius: 10px;
   padding: 60px 20px;
 }
-.btn-branding {
-  background: var(--branding-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-.btn-branding-outline {
-  border: 1px solid var(--primary-color);
-  border-radius: 4px;
-  color: var(--primary-color);
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-}
-.btn-branding-outline:hover {
-  color: var(--default-color-family);
-}
+
 .hero {
   background-color: var(--primary-color);
   padding: 80px 20px;
